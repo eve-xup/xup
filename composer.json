@@ -33,10 +33,6 @@
         },
         {
             "type": "path",
-            "url": "packages/laravelevetools/eve-seeder"
-        },
-        {
-            "type": "path",
             "url": "packages/laravelevetools/eveapi"
         }
     ],

@@ -1,13 +1,17 @@
 {
     "name": "laravelevetools/eve-seeder",
-    "description": "Allows for the seeding of eve SDE data",
+    "version": "1.0",
+    "description": "EVE Online SDE seeders for Laravel Projects",
+    "license": "GPL-2.0-or-later",
     "autoload": {
         "psr-4": {
             "LaravelEveTools\\EveSeeder\\": "src/"
         }
     },
     "minimum-stability": "dev",
+    "prefer-stable": true,
     "require": {
+        "laravel/framework": "^8.0",
         "maatwebsite/excel": "^3.0"
     },
     "extra": {
